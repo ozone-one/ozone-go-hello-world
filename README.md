@@ -1,2 +1,1 @@
-# ozone-go-hello-world
-ozone-go-hello-world
+# in2tive-go-hello-world
