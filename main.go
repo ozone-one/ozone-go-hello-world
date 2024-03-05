@@ -4,14 +4,11 @@ import (
 	"fmt"
 	"math/rand"
 	"net/http"
-	"os"
 	"time"
 
 	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
 
 	"github.com/gorilla/mux"
-	"github.com/newrelic/go-agent/v3/newrelic"
-	"go.elastic.co/apm/module/apmgorilla"
 )
 
 func hello(w http.ResponseWriter, req *http.Request) {
